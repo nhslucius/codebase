@@ -21,3 +21,8 @@ springdoc:
     enabled: true
   swagger-ui:
     path: /swagger-ui.html
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0 # Ghi lại 100% các trace
